@@ -1,0 +1,34 @@
+.lists {
+  background-color: #178841;
+  width: 300px;
+  color: white;
+  font-family: "Fresh Sans Medium", Helvetica, Arial, sans-serif;
+  display: block;
+  height: 100%;
+  padding: 10px 20px;
+  position: fixed;
+}
+
+.tiles {
+  margin-left: 340px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+product-tile {
+  margin: 20px 10px;
+}
+
+.shoppingList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background: #eee;
+  margin: 10px 0;
+  border: #aaa;
+  color: #333;
+  padding: 10px;
+}
